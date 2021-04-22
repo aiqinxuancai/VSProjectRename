@@ -22,7 +22,7 @@ namespace VSProjectRename
             Console.WriteLine("注意：请自行将目录中的.git .vs .vscode等目录先移除");
 
             //请先备份项目
-            Console.WriteLine(@"请输入项目sln所在路径：（例:D:\git\KanAuto）");
+            Console.WriteLine(@"请输入项目sln所在路径（例:D:\git\KanAuto）：");
             string projectPath = Console.ReadLine();
 
             Console.WriteLine(@"请输入旧项目名：");
